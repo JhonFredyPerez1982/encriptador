@@ -1,0 +1,171 @@
+.principal{
+    margin: 10px;
+    border: solid 5px;
+    align-items: center;
+    text-align: center;
+    background: url(imagenes/muñeco.png);
+}
+.container{
+    border-radius: 10px;
+    margin: 2px;
+    border: solid 2px;
+    align-items: center;
+color: blue;
+}
+.botonesEncriptadores{
+    display: flex;
+    margin:10px auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.botonesEncriptadores:hover{
+    box-shadow: 10px 10px 30px 15px;
+     margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+}
+ .showText{
+     margin: 20px;
+ }
+  .mensaje{
+    margin: 5px;
+    width: 100%;
+    text-align: center;
+    border: groove 10px;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Combo', cursive;
+    color: blue;
+    }
+    .input-texto {
+        width: 80%;
+        box-shadow: 10px 10px 30px 15px  blue;
+        text-align: center;
+        border-radius: 10px;
+        font-size: 20px;
+    color: rgb(120, 35, 35);
+    }
+.encriptar {
+    vertical-align: 40px;
+    background: rgb(120, 35, 35);
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.desencriptar {
+    vertical-align: 40px;
+    background: rgb(120, 35, 35);
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.input-texto:hover {
+    width: 40%;
+    box-shadow: 10px 10px 30px 15px   blue;;
+    text-align: center;
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    background: black;
+
+}
+.botonesEncriptadores2{
+    display: flex;
+    margin:20px auto;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.copiar {
+    height:50px;
+    width: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    vertical-align: middle;
+    background:darkblue
+}
+.pegar {
+
+    height:50px;
+    width: 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    vertical-align: middle;
+    background:darkblue
+}
+mark{
+    vertical-align:-15px;
+    font-weight: bold;
+}
+.seccion1Botones{margin: 5px;
+    border: solid 2px blue;
+background: blue;
+border-radius: 10px;
+padding: 5px;
+background: url(imagenes/muñeco.png);
+}
+.botones{
+    background:darkblue;
+    text-align: center;
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    margin: 5px;
+
+}
+
+.botonReset {
+    width: 45%;
+    height: 35px;
+    background: rgb(120, 35, 35);
+    text-align: center;
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.botonSpace {
+    width: 45%;
+    height: 35px;
+    background: rgb(120, 35, 35);
+    text-align: center;
+    border-radius: 10px;
+    border-color: grey;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+@media(min-width: 769px) {
+    .principal{
+        width: 80%;
+
+    }
+.container{
+    width:auto;
+
+
+}
+.botonesEncriptadores{
+    width: 100%;
+}
+.input-texto{
+    width: 100%;
+}
+.showText, .mensaje,.seccion1Botones{
+width:auto;
+}
+}
