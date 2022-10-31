@@ -19,6 +19,15 @@ color: blue;
     align-items: center;
 
 }
+.botonesEncriptadores:hover{
+    box-shadow: 10px 10px 30px 15px;
+     margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px ;
+    align-items: center;
+    background: black;
+}
  .showText{
      margin: 20px;
  }
@@ -147,17 +156,13 @@ background: url(imagenes/muñeco.png);
 
 }
 .botonesEncriptadores{
-    display:inline-block;
-    width: 250px;
+    width: auto;
 }
 .input-texto{
     width: 80%;
-    display:inline-block;
-
 }
 .mensaje,{
-   width:  50%;
-}
+   width:  50%;}
 .showText,.table,.seccion1Botones,.botones,.botonSpace{
 width:auto;
 }
