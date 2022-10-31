@@ -7,23 +7,24 @@
 }
 .container{
     border-radius: 10px;
-    margin: 2px;
+    margin: 5px;
     border: solid 2px;
     align-items: center;
 color: blue;
 }
 .botonesEncriptadores{
     display: flex;
-    margin:10px auto;
-    justify-content: space-between;
+    margin:30px;
+    justify-content: space-around;
     align-items: center;
 
 }
 .botonesEncriptadores:hover{
     box-shadow: 10px 10px 30px 15px;
-     margin: 10px;
+     margin: 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-radius: 20px ;
     align-items: center;
     background: black;
 }
@@ -48,6 +49,7 @@ color: blue;
         border-radius: 10px;
         font-size: 20px;
     color: rgb(120, 35, 35);
+    margin: 20px;
     }
 .encriptar {
     vertical-align: 40px;
@@ -69,7 +71,8 @@ color: blue;
 }
 
 .input-texto:hover {
-    width: 40%;
+    width: 80%;
+    height: 50px;
     box-shadow: 10px 10px 30px 15px   blue;;
     text-align: center;
     border-radius: 10px;
@@ -88,7 +91,7 @@ color: blue;
 }
 .copiar {
     height:50px;
-    width: 50px;
+    width: 60px;
     font-weight: bold;
     border-radius: 10px;
     vertical-align: middle;
@@ -97,7 +100,7 @@ color: blue;
 .pegar {
 
     height:50px;
-    width: 50px;
+    width: 60px;
     font-weight: bold;
     border-radius: 10px;
     vertical-align: middle;
@@ -106,8 +109,10 @@ color: blue;
 mark{
     vertical-align:-15px;
     font-weight: bold;
+    text-align: center;
 }
-.seccion1Botones{margin: 5px;
+.seccion1Botones{
+    margin: 5px;
     border: solid 2px blue;
 background: blue;
 border-radius: 10px;
@@ -126,17 +131,7 @@ background: url(imagenes/muñeco.png);
 
 }
 
-.botonReset {
-    width: 45%;
-    height: 35px;
-    background: rgb(120, 35, 35);
-    text-align: center;
-    border-radius: 10px;
-    border-color: grey;
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-}
+
 .botonSpace {
     width: 45%;
     height: 35px;
@@ -149,23 +144,26 @@ background: url(imagenes/muñeco.png);
     color: white;
 }
 
-@media(min-width: 769px) {
+@media(max-width: 769px) {
     .principal{
-        width: 80%;
+        width: 100%;
 
     }
 .container{
+    margin: 10px;
     width:auto;
 
 
 }
 .botonesEncriptadores{
-    width: 100%;
+    width: auto;
 }
 .input-texto{
-    width: 100%;
+    width: 80%;
 }
-.showText, .mensaje,.seccion1Botones{
+.mensaje,{
+   width:  50%;}
+.showText,.table,.seccion1Botones,.botones,.botonSpace{
 width:auto;
 }
 }
