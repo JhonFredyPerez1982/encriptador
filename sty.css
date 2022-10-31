@@ -166,4 +166,13 @@ background: url(imagenes/muñeco.png);
 .showText,.table,.seccion1Botones,.botones,.botonSpace{
 width:auto;
 }
+.botonesEncriptadores:hover{
+    box-shadow: 10px 10px 30px 15px;
+     margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px ;
+    align-items: center;
+    background: black;
+}
 }
